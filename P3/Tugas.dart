@@ -4,7 +4,7 @@ void main() {
 
   for (int i = 0; i <= 201; i++) {
     if (isPrima(i)) {
-      print("$i adalah bilangan prima - $nama ($nim)");
+      print("$i -> $nama ($nim)");
     }
   }
 }
