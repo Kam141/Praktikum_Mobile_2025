@@ -34,3 +34,17 @@ void main(){
   print(mhs2);
 
 }
+
+// Langkah 2
+// Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+// Jawab: 
+// - gifts adalah Map dengan key bertipe String ('first', 'second', 'fifth') dan value yang campuran (String dan int). Dart akan otomatis menganggap tipenya Map<String, Object?>.
+// - nobleGases adalah Map dengan key bertipe int (2, 10, 18) dan value campuran (String dan int). Dart akan otomatis menganggap tipenya Map<int, Object?>.
+// - print() menampilkan isi Map dalam format {key: value, ...}.
+
+// Langkah 3
+// Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tambahkan elemen nama dan NIM Anda pada tiap variabel di atas (gifts, nobleGases, mhs1, dan mhs2). Dokumentasikan hasilnya dan buat laporannya!
+// Jawab: Tidak terdapat error. 
+// - gifts dibuat dengan nilai campuran (String dan int). Dart akan menganggap tipenya Map<String, Object?>. 
+// - nobleGases dibuat dengan key int dan value campuran (String dan int). Dart akan menganggap tipenya Map<int, Object?>.
+// - mhs1 dan mhs2 dibuat kosong.

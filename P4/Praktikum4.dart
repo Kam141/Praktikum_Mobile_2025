@@ -27,3 +27,38 @@ void main() {
   assert(listOfStrings[1] == '#1');
   print(listOfStrings);
 }
+
+// Langkah 2
+// Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+// Jawab: 
+// Hasilnya adalah error. Pada kode tersebut variabel list1 tidak pernah dideklarasikan. 
+// Pembenarannya:
+// Dengan mengganti variabel list1 menjadi list.
+
+// Langkah 3
+// Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda
+// Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
+// Jawab:
+// Tambahkan variabel list berisi NIM Anda menggunakan Spread Operators. Dokumentasikan hasilnya dan buat laporannya!
+
+// Langkah 4
+// Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+// Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel promoActive ketika true dan false.
+// Jawab:
+// Variabel promoActive belum pernah dideklarasikan, sehingga hasil run adalah error.
+// Ketika sudah dideklarasikan, maka ketika promoActive bernilai true, hasilnya adalah ['Home', 'Furniture', 'Plants', 'Outlet']
+// Ketika promoActive bernilai false, hasilnya adalah ['Home', 'Furniture', 'Plants']
+
+// Langkah 5
+// Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+// Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel login mempunyai kondisi lain.
+// Jawab:
+// Variabel login belum pernah dideklarasikan, sehingga hasil run adalah error.
+// Ketika sudah dideklarasikan, maka ketika login bernilai Manager, hasilnya adalah ['Home', 'Furniture', 'Plants', 'Inventory']
+// Ketika login bernilai selain Manager, hasilnya adalah ['Home', 'Furniture', 'Plants']
+
+// Langkah 6
+// Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+// Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Jelaskan manfaat Collection For dan dokumentasikan hasilnya.
+// Jawab:
+// Hasilnya tidak error. pada kode tersebut listOfStrings dibuat dengan Collection For, artinya kita bisa menambahkan elemen ke dalam list secara dinamis dengan perulangan.
