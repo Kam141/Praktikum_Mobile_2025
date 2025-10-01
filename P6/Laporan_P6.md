@@ -19,7 +19,7 @@ Melakukan identifikasi elemen dan tata letaknya. Setelah itu kita melakukan impl
 ---
 
 ### Praktikum 2 Implementasi Button Row
-Bagian tombol berisi 3 kolom yang menggunakan tata letak yang sama—sebuah ikon di atas baris teks. Kolom pada baris ini diberi jarak yang sama, dan teks serta ikon diberi warna primer.  
+Bagian tombol berisi 3 kolom yang menggunakan tata letak yang sama sebuah ikon di atas baris teks. Kolom pada baris ini diberi jarak yang sama, dan teks serta ikon diberi warna primer.  
 ![Screenshot button](Hasil_praktikum/icon.png)
 
 ---
