@@ -51,14 +51,16 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: const Text(
-        'Carilah teks di internet yang sesuai '
-        'dengan foto atau tempat wisata yang ingin '
-        'Anda tampilkan. '
-        'Tambahkan nama dan NIM Anda sebagai '
-        'identitas hasil pekerjaan Anda. '
+        'Gunung Batu menyuguhkan panorama alam yang memukau dengan puncak-puncak batu yang menjulang ' 
+        'tinggi seolah menyapa langit, ditemani hembusan angin sejuk dan kabut tipis yang menambah suasana magis;' 
+        'dari lereng hingga puncak, jalur alami berupa akar dan bebatuan menjadi tantangan tersendiri bagi para pendaki,' 
+        'sementara dari atas tersaji pemandangan indah yang mengajarkan kita arti kesederhanaan dan pentingnya menjaga kelestarian'
+        'alam agar tetap asri dan menyejukkan jiwa.\n\n' 
+        'Nama: Kamila Habiba Putri Ananta\n' 
+        'NIM: 123200045\n\n'
         'Selamat mengerjakan 🙂.',
         softWrap: true,
-      ),
+      )
     );
 
     return MaterialApp(
